@@ -135,7 +135,7 @@ const Navbar = () => {
               <AiOutlineMail />
             </a>
             <a 
-              href='tel:+734 730 7284'
+              href='tel:+1 734 730 7284'
               className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
               <FiPhoneCall />
             </a>
