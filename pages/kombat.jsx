@@ -18,7 +18,7 @@ const kombat = () => {
                 <p>Project</p>
                 <h2>Overview</h2>
                 <p>
-                    Developed and deployed a 'Mortal Kombat' type of game using HTML, CSS, and JavaScript. Used a CDN JavaScript library to better animate the health bar depleting.
+                    Developed and deployed a &apos;Mortal Kombat&apos; type of game using HTML, CSS, and JavaScript. Used a CDN JavaScript library to better animate the health bar depleting.
                     2 player game in which you fight off your opponent while dodging hits. Both players have 60 seconds to hit their opponent 5 times to be declared the winner.
                     Developed the game at first creating player objects, designing rectangles as players and designing an attack box to allow the player to damage another player. 
                     Implemented animations into the game using sprites, to allow characters to make realistic movements. Characters have specific attributes that give them certain advantages, as well as disadvantages.
