@@ -17,7 +17,8 @@ const Navbar = () => {
   useEffect(()=>{
     if (
       router.asPath === '/rental' ||
-      router.asPath === '/vibe'
+      router.asPath === '/vibe' ||
+      router.asPath === '/kombat'
     ){
       setNavBg('transparent');
       setLinkColor('#ecf0f3');
