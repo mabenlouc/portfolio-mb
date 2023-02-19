@@ -48,7 +48,7 @@ const Contact = () => {
                                 <AiOutlineMail />
                             </a>
                             <a 
-                                href='tel:+1 734 730 7284'
+                                href=''
                                 className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                                 <FiPhoneCall />
                             </a>
