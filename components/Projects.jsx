@@ -28,6 +28,12 @@ const Projects = () => {
                 backgroundImg="https://drive.google.com/file/d/1922znaucAqqEUOwgeRYjVvgPYSSga67G/preview"
                 projectUrl='/kombat'
             />
+            <ProjectItem 
+                title='Secure Multi-threaded Chat Service' 
+                technologies='Java, GCP'
+                backgroundImg="https://drive.google.com/file/d/1hfOYLO-ZFUaN3Ew6sv9upQhcMI2k5S43/preview"
+                projectUrl='/MTClientServer'
+            />
 {/*
             <ProjectItem 
                 title='Luxury Rentals' 
