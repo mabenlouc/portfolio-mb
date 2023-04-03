@@ -21,7 +21,7 @@ const MTClientServer = () => {
 
 During the handshake process, the server sends the client three values: g, n, and g^x mod n. The client generates a random value y, calculates g^y mod n, and sends it to the server. The client also calculates the shared key as (g^x mod n)^y mod n and uses the last 8 bits of the binary representation of the shared key as a one-byte pad. The client uses this pad to encrypt and decrypt subsequent messages exchanged with the server.
 
-Overall, this program is a basic implementation of a TCP client that performs a handshake to establish a secure communication channel with a server. It uses Java's built-in socket and I/O classes to exchange messages with the server and implements a simple encryption key using a one-byte pad.
+Overall, this program is a basic implementation of a TCP client that performs a handshake to establish a secure communication channel with a server. It uses Java&apos;s built-in socket and I/O classes to exchange messages with the server and implements a simple encryption key using a one-byte pad.
                 </p>
                 <h2 className='py-2'>Server-Side Program</h2>
                 <p>
