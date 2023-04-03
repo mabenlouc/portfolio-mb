@@ -50,7 +50,7 @@ const Main = () => {
                 <p className='uppercase text-sm pt-10 tracking-widest text-gray-600'>Download CV</p>
                 <div className='flex items-center justify-between max-w-[60px] m-auto py-4'>
                     <a
-                        href='https://drive.google.com/file/d/1h1JQhuLLzUDrsKssSDNWukBD6MpXxgmO/preview' 
+                        href='https://drive.google.com/file/d/1NfkY-uKhX9przNqFLk4WfQGmTYwU-d-b/preview' 
                         className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <MdCloudDownload />
                     </a>
