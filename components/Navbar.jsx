@@ -66,9 +66,6 @@ const Navbar = () => {
               <Link href='/#projects'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
               </Link>
-              <Link href='/#contact'>
-                <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
-              </Link>
             </ul>
             <div onClick={handleNav} className='md:hidden'>
               <AiOutlineMenu style={{color: `${linkColor}`}} size={25} />
@@ -109,38 +106,8 @@ const Navbar = () => {
           <Link href='/#projects'>
           <li onClick={()=> setNav(false)} className='py-4 text-sm'>Projects</li>
           </Link>
-          <Link href='/#contact'>
-          <li onClick={()=> setNav(false)} className='py-4 text-sm'>Contact</li>
-          </Link>
         </ul>
-        <div className='pt-40'>
-          <p className='uppercase tracking-widest text-[#5651e5]'>
-            Let&apos;s Connect
-          </p>
-          <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-            <a 
-              href='http://linkedin.com/in/mabenlouc'
-              className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-              <FaLinkedinIn />
-            </a>
-            <a 
-              href='https://github.com/mabenlouc'
-              className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-              <FaGithub />
-            </a>
-            <a 
-              href='mailto:mabenlouc@gmail.com'
-              className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-              <AiOutlineMail />
-            </a>
-            <a 
-              href=''
-              className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-              <FiPhoneCall />
-            </a>
-            
-          </div>
-        </div>
+        
       </div>
       </div>
     </div>

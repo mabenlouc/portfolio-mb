@@ -12,38 +12,17 @@ const Main = () => {
             <div>
                 
                 <h1 className='py-4 text-gray-700'>
-                    Hi, I&apos;m <span className='text-[#5651e5]'> Mohammed </span>
+                    <span className='text-[#16489E]'> Mohammed Benloucif </span>
                 </h1>
                 <h1 className='py-4 text-gray-700'>
-                    A Full-Stack Developer
+                    Jr React Developer
                 </h1>
                 <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
-                    I am a full stack developer specializing in building and designing exceptional 
-                    digital experiences. Currently, I am focused on building responsive full stack 
-                    web applications as well as mobile applications, while learning new frameworks and libraries.
+                    I graduated with a Bachelors of Science in Computer Science in winter of 2023. I thank all my professors who have guided me on this journey, and family and friends who supported me through it. Throughout my experience at school, 
+                    I had the opportunity to learn and apply various programming languages and concepts, and found an interest in web development.
+                    I am excited to start my career in this field and to continue learning and growing!
+
                 </p>
-                <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-                    <a
-                        href='http://linkedin.com/in/mabenlouc'
-                        className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <FaLinkedinIn />
-                    </a>
-                    <a 
-                        href='https://github.com/mabenlouc'
-                        className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <FaGithub />
-                    </a>
-                    <a 
-                        href='mailto:mabenlouc@gmail.com'
-                        className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <AiOutlineMail />
-                    </a>
-                    <a 
-                        href='tel:+1 734 730 7284'
-                        className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <FiPhoneCall />
-                    </a>
-                </div>
                 
                 <p className='uppercase text-sm pt-10 tracking-widest text-gray-600'>Download CV</p>
                 <div className='flex items-center justify-between max-w-[60px] m-auto py-4'>
