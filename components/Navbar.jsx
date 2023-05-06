@@ -96,9 +96,7 @@ const Navbar = () => {
             <AiOutlineClose />
           </div>
         </div>
-        <div className='border-b border-gray-300 my-4'>
-          <p className='w-[85%] md:w-[90%] py-4'>Let&apos;s build something legendary together</p>
-        </div>
+        
       </div>
       <div className='py-4 flex flex-col'>
         <ul className='uppercase'>
