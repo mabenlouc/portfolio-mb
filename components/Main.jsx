@@ -13,7 +13,7 @@ const Main = () => {
                 <h1 className='py-4 text-gray-700'>
                     <span className='text-[#16489E]'> Mohammed Benloucif </span>
                 </h1>
-                <h1 className='py-4 text-gray-700 text-5xl'>
+                <h1 className='py-4 text-gray-700 md:text-5xl sm:text-3xl'>
                     Jr React Developer
                 </h1>
                 <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
