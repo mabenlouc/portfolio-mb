@@ -1,18 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
-import htmlImg from '../public/assets/html.png';
-import cssImg from '../public/assets/css1.png';
-import tailwindImg from '../public/assets/tailwind.png';
-import reactImg from '../public/assets/react.png';
-import phpImg from '../public/assets/php.png';
-import javaImg from '../public/assets/java.png';
-import javascriptImg from '../public/assets/javascript.png';
-import pythonImg from '../public/assets/python.png';
-import dynamodbImg from '../public/assets/DynamoDB.png';
-import rdsImg from '../public/assets/amazonRDS.png';
-import mysqlImg from '../public/assets/mysql.png';
-import firebaseImg from '../public/assets/skills/firebase.png';
-
 
 const Skills = () => {
   return (
